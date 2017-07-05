@@ -518,6 +518,7 @@
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			font-family: sans-serif;
 		}
 
 		#header p {
@@ -944,13 +945,13 @@
 
 		#header p {
 			font-size: 1em;
-			
-		}	
+
+		}
 		a.about {
 			underline:none;
-			
-			
-		}	
+
+
+		}
 		#header nav {
 			font-size: 1em;
 		}
@@ -1045,9 +1046,8 @@
 		#header nav {
 			padding: 0 1em;
 		} }
-		
+
 		.about {
 		text-decoration: none !important;
-		
+
 		}
-			

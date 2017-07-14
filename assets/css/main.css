@@ -26,6 +26,10 @@
 		line-height: 1;
 	}
 
+	html{
+		 height: 100%
+	}
+
 	ol, ul {
 		list-style: none;
 	}
@@ -193,6 +197,7 @@
 		opacity: 1;
 		position: fixed;
 		top: 0;
+
 	}
 
 	@-moz-keyframes bg {
@@ -519,16 +524,19 @@
 			letter-spacing: -0.035em;
 			line-height: 1em;
 			font-family: sans-serif;
+			color: white ;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
+			color: white ;
 		}
 
 		#header nav {
 			margin: 1.5em 0 0 0;
+
 		}
 
 			#header nav li {
@@ -551,6 +559,7 @@
 				position: relative;
 				top: 0;
 				width: 5.35em;
+
 			}
 
 				#header nav li:nth-child(1) {
@@ -558,6 +567,7 @@
 					-webkit-animation-delay: 2.5s;
 					-ms-animation-delay: 2.5s;
 					animation-delay: 2.5s;
+
 				}
 
 				#header nav li:nth-child(2) {
@@ -628,6 +638,8 @@
 				-webkit-touch-callout: none;
 				border: 0;
 				display: inline-block;
+				color: white ;
+				text-decoration-line: none;
 			}
 
 				#header nav a:before {
@@ -685,6 +697,7 @@
 		position: absolute;
 		text-align: center;
 		width: 100%;
+		color: #ffffff;
 	}
 
 /* Wide */
@@ -847,7 +860,7 @@
 		}
 
 		#bg {
-			background-size: 750px auto;
+			/*background-size: 750px auto;*/
 			width: 2250px;
 		} }
 
@@ -933,7 +946,7 @@
 		}
 
 		#bg {
-			background-size: 300px auto;
+			/*background-size: 300px auto;*/
 			width: 900px;
 		}
 
@@ -1037,7 +1050,7 @@
 
 		#bg {
 			/*background-size: 412.5px auto;*/
-			background-size: 600.5px auto;
+			/*background-size: 600.5px auto;*/
 			width: 1237.5px;
 		}
 
@@ -1045,7 +1058,7 @@
 
 		#header nav {
 			padding: 0 1em;
-		} }
+		}
 
 		.about {
 		text-decoration: none !important;

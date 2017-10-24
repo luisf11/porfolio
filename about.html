@@ -1,110 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LuisF11</title>
+    <link rel="stylesheet" href="assets/css/about.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" >
+    <link rel="shortcut icon" href="assets\css\images\favicon-16x16.png" type="image/png">
+  </head>
+  <body>
 
-  <title>LuisF11</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/about.css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="shortcut icon" href="assets\css\images\favicon-16x16.png" type="image/png" >
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js" charset="utf-8"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <a class="navbar-brand " href="index.html">HOME</a>
+      </div>
+    </nav>
 
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center who">
+      <h3 class="margin">Who Am I?</h3>
+      <img src="assets/css/images/avatar.png" class="img-responsive img-circle margin" style="display:inline" alt="avatar" width="350"
+        height="350">
 
-
-</head>
-<body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-    <div class="container">
-      <a class="navbar-brand " href="index.html">HOME</a>
+      <h3>I'm
+        <span class="type"></span>
+      </h3>
     </div>
-</nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center who">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="assets/css/images/avatar.png" class="img-responsive img-circle margin" style="display:inline" alt="avatar" width="350" height="350">
-
-  <h3>I'm <span class="type"></span></h3>
-
-
-</div>
-
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center about">
-  <h3 class="margin">Hey I am Luis</h3>
-  <p>I am a highly motivated software developer with more than 2 years
-    of professional experience. I live in Dominican Republic. I'm a
-    technology enthusiast,Iot lover and open source contributor, always
-    looking to something new to learn. <br> <br>"First, solve the problem.
-    Then, write the code." </p>
-
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center skill">
-  <h3 class="margin">Skills board</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <ul class="list-group">
-          <li class="list-group-item active">Front-end Development</li>
-          <li class="list-group-item text-left text-left"> HTML5</li>
-          <li class="list-group-item text-left"> CSS3</li>
-          <li class="list-group-item text-left"> Javascript</li>
-          <li class="list-group-item text-left"> Angular js</li>
-          <li class="list-group-item text-left"> Angular </li>
-      </ul>
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center about">
+      <h3 class="margin">Hey I am Luis</h3>
+      <p>I am a highly motivated software developer with more than 2 years of professional experience. I live in Dominican Republic.
+        I'm a technology enthusiast,Iot lover and open source contributor, always looking to something new to learn.
+        <br>
+        <br>"First, solve the problem. Then, write the code." </p>
     </div>
-    <div class="col-sm-4">
-      <ul class="list-group">
-          <li class="list-group-item active">Back-end Development</li>
-          <li class="list-group-item text-left"> Java</li>
-          <li class="list-group-item text-left"> Node Js</li>
-          <li class="list-group-item text-left"> Express</li>
-          <li class="list-group-item text-left"> MongoDb</li>
-          <li class="list-group-item text-left"> MYSQL</li>
-          <li class="list-group-item text-left"> Oracle </li>
-          <li class="list-group-item text-left"> SQL Server</li>
-          <li class="list-group-item text-left"> Git</li>
-          <li class="list-group-item text-left"> Android development</li>
-      </ul>
-    </div>
-    <div class="col-sm-4">
-      <ul class="list-group">
-          <li class="list-group-item active">Framework</li>
-          <li class="list-group-item text-left"> Spring</li>
-          <li class="list-group-item text-left"> Bower</li>
-          <li class="list-group-item text-left"> Bootstrap</li>
-          <li class="list-group-item text-left"> Hibernate</li>
-      </ul>
-    </div>
-  </div>
-</div>
 
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  	<span class="copyright">&copy; HandMade by <a href="https://github.com/luisf11">LuisF11</a>.</span>
-</footer>
-<script src="assets\js\main.js" charset="utf-8"></script>
-<!-- <script>
-  $(function(){
-    $(".type").typed({
-      strings: [
-        "an adventurer",
-        "a software developer",
-        "a creator",
-        "an Enthusiast"
-      ],
-      typeSpeed: 70,
-      backDelay: 200,
-      loop: true
-    })
-  })
-</script> -->
-</body>
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center skill">
+      <h3 class="margin">Skills board</h3>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item active">Front-end Development</li>
+            <li class="list-group-item text-left text-left"> HTML5</li>
+            <li class="list-group-item text-left"> CSS3</li>
+            <li class="list-group-item text-left"> Javascript</li>
+            <li class="list-group-item text-left"> Angular js</li>
+            <li class="list-group-item text-left"> Angular </li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item active">Back-end Development</li>
+            <li class="list-group-item text-left"> Java</li>
+            <li class="list-group-item text-left"> Node Js</li>
+            <li class="list-group-item text-left"> Express</li>
+            <li class="list-group-item text-left"> MongoDb</li>
+            <li class="list-group-item text-left"> MYSQL</li>
+            <li class="list-group-item text-left"> Oracle </li>
+            <li class="list-group-item text-left"> SQL Server</li>
+            <li class="list-group-item text-left"> Git</li>
+            <li class="list-group-item text-left"> Android development</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item active">Framework</li>
+            <li class="list-group-item text-left"> Spring</li>
+            <li class="list-group-item text-left"> Bower</li>
+            <li class="list-group-item text-left"> Bootstrap</li>
+            <li class="list-group-item text-left"> Hibernate</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+      <span class="copyright">&copy; HandMade by
+        <a href="https://github.com/luisf11">LuisF11</a>.</span>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js" charset="utf-8"></script>
+    <script src="assets\js\main.js" charset="utf-8"></script>
+  </body>
 </html>

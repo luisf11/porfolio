@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import emoji from '../images/LF-emoji.png'
 
 class Home extends Component {
     render() {
@@ -11,6 +12,8 @@ class Home extends Component {
 
 				 {/* Header  */}
 					<header id="header">
+                        
+                        <img src={emoji} className="emoji-image"/>
 						<h1>Luis F. Peña</h1>
 						<p>Full Stack Developer &nbsp;&bull;&nbsp; Creator &nbsp;&bull;&nbsp; Enthusiast</p>
 						<nav>

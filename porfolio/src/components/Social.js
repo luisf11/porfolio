@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import socialMedia from '../config/config';
+
+console.log(socialMedia)
 
 class Social extends Component {
     render() {

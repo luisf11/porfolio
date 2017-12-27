@@ -16,7 +16,7 @@ class Home extends Component {
           <div id="overlay" />
           <div id="main">
             {/* Header  */}
-            <div id="card">
+            <div id="card" >
              
               <Switch>
                 <Route exact path="/" component={Intro} />

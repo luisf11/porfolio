@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Stack extends Component {
+class Project extends Component {
     render() {
         return (
             <div>
@@ -10,4 +10,4 @@ class Stack extends Component {
     }
 }
 
-export default Stack;
+export default Project;

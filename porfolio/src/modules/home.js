@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { Switch, Route, NavLink } from "react-router-dom";
 import Intro from "./Intro";
-import Stack from "./Stack";
+import Project from "./Projects";
 import About from "./About";
 import Tabs from "../components/Tabs";
 import Social from "../components/Social";
@@ -21,7 +21,7 @@ class Home extends Component {
               <Switch>
                 <Route exact path="/" component={Intro} />
                 <Route path="/about" component={About} />
-                <Route path="/stack" component={Stack} />
+                <Route path="/project" component={Project} />
               </Switch>
 
             

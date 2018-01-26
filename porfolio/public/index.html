@@ -27,6 +27,8 @@
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
+
+  <div>loading...</div>
   <div id="root"></div>
   <!--
       This HTML file is a template.
@@ -43,7 +45,12 @@
     window.onload = function () { document.body.className = ''; }
     window.ontouchmove = function () { return false; }
     window.onorientationchange = function () { document.body.scrollTop = 0; }
+    let state =  document.readyState;
+    console.log(state);
 
+  if(state === '') {
+
+  }
   </script>
 </body>
 

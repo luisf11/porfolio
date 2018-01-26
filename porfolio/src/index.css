@@ -519,6 +519,22 @@
 		width: 40%;
 	}
 
+
+	/* card navigation  */
+
+	div.cardNav {
+		margin-bottom: 20px;
+		font-size: 20px;
+
+	}
+
+	div.cardNav div.tabs a:hover{
+		font-size: 50px;
+
+	}
+
+
+	/* card */
 		#card h1 {
 			font-size: 3.35em;
 			font-weight: 900;
@@ -539,10 +555,7 @@
 			margin: 1.5em 0.5em 0.5em 0;
 		}
 
-		#card nav {
-			/* margin: 1.5em 0 0 0; */
-
-		}
+	
 
 
 			#card div li {
@@ -667,6 +680,8 @@
 
 				#card div a:hover {
 					font-size: 1.1em;
+					/* background-color: rgba(0, 0, 0, 0.404); */
+
 				}
 
 					#card div a:hover:before {

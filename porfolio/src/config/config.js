@@ -1,17 +1,17 @@
  export const navOptions = [
   {
     key: 1,
-    name: "home",
+    name: "Home",
     route: "/"
   },
   {
     key: 2,
-    name: "about",
+    name: "About",
     route: "/about"
   },
   {
     key: 3,
-    name: "projects",
+    name: "Projects",
     route: "/projects"
   }
 ];

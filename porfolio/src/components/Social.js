@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import socialMedia from '../config/config';
 
-console.log(socialMedia)
 
-class Social extends Component {
-    render() {
+
+const Social = () => {
         return (
                 <div className="Social">
                   <ul>
@@ -39,6 +38,5 @@ class Social extends Component {
                 </div>
         );
     }
-}
 
 export default Social;   

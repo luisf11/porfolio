@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { Switch, Route, NavLink } from "react-router-dom";
 import Intro from "./Intro";
-import Project from "./Projects";
+import Projects from "./Projects";
 import About from "./About";
 import Tabs from "../components/Tabs";
 import Social from "../components/Social";
@@ -24,7 +24,7 @@ class Home extends Component {
               <Switch>
                 <Route exact path="/" component={Intro} />
                 <Route path="/about" component={About} />
-                <Route path="/project" component={Project} />
+                <Route path="/projects" component={Projects} />
               </Switch>
 
               <div className="Social">

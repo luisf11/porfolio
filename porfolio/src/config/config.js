@@ -6,7 +6,7 @@
   },
   {
     key: 2,
-    name: "About",
+    name: "About me",
     route: "/about"
   },
   {

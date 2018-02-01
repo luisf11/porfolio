@@ -1,4 +1,4 @@
- export const navOptions = [
+ const navOptions = [
   {
     key: 1,
     name: "Home",
@@ -16,7 +16,7 @@
   }
 ];
 
-export const socialMedia = [
+ const socialMedia = [
     {
         key: 1,
         link: "https://twitter.com/LFernandoDleon",
@@ -43,4 +43,4 @@ export const socialMedia = [
     },
 ];
 
-export default navOptions;
+export {navOptions,socialMedia} ;

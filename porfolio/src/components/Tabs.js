@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import {NavLink } from "react-router-dom";
-import navOptions from "../config/config"
+import {navOptions} from "../config/config";
 
+ 
 
-
-class Tabs extends Component {
-    render() {
+const  Tabs = () => {
         return (
             <div className="tabs">
             {navOptions.map(option =>(
@@ -18,6 +17,6 @@ class Tabs extends Component {
               </div>
         );
     }
-}
+
 
 export default Tabs;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Switch, Route, NavLink } from "react-router-dom";
+import { Switch, Route} from "react-router-dom";
 import Intro from "./Intro";
 import Project from "./Projects";
 import About from "./About";

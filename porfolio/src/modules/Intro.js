@@ -1,20 +1,41 @@
-import React from 'react';
+import React from "react";
 import emoji from "../images/LF-emoji.png";
+import styled from "styled-components";
 
-const  Intro = () => {
-        return (
-            <div className="home">
-                <div className="card-content">
-                <img alt="emoji" src={emoji} className="emoji-image" />
-                <h1>Luis F. Peña</h1>
-                <p className="type">
-                  Full Stack Developer &nbsp;&bull;&nbsp; Creator
-                  &nbsp;&bull;&nbsp; Enthusiast
-                </p>
-              </div> 
-            </div>
-        );
-    }
+const FlexWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
 
+const Image = styled.img`
+    border-radius: 50%;
+    width:200px
+`
+const Element = styled.div``;
+
+const Text = styled.p`
+    font-size: ${props => props.size}em;
+`;
+
+
+const Intro = () => {
+  return (
+    <FlexWrapper>
+      <Element>
+        <Image alt="emoji" src={emoji}  />
+      </Element>
+      <Element>
+        <Text size="3">Luis F. Peña</Text>
+      </Element>
+      <Element>
+        <Text size="1">
+          Full Stack Developer &nbsp;&bull;&nbsp; Creator &nbsp;&bull;&nbsp;
+          Enthusiast
+        </Text>
+      </Element>
+    </FlexWrapper>
+  );
+};
 
 export default Intro;

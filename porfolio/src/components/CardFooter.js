@@ -23,10 +23,10 @@ const TabList = () => {
   )
 };
 
-const Social = () => {
+const CardFooter = () => {
   return(
     <TabList />
   )
 }
 
-export default Social;
+export default CardFooter;

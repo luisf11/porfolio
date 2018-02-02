@@ -1,11 +1,10 @@
  import React from 'react';
 import {NavLink } from "react-router-dom";
-import navOptions from "../config/config"
+import {navOptions} from "../config/config";
 
+ 
 
-
-const  Tabs = () => { 
-    
+const  Tabs = () => {
         return (
             <div className="tabs">
             {navOptions.map(option =>(

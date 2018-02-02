@@ -1,17 +1,27 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import styled from 'styled-components';
+import {about} from '../config/config'
 
-class About extends Component {
-    render() {
-        return (
-            <div className="about">
-                 <p>Hey I am Luis</p>
-      <p>I am a highly motivated software developer with more than 3 years of professional experience. I live in Dominican Republic.
-        I'm a technology enthusiast,Iot lover and open source contributor, always looking to something new to learn.
-        <br></br>
-<br></br>"First, solve the problem. Then, write the code." </p>
-            </div>
-        );
-    }
-}
+const Text = styled.p`
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 1.25em;
+    margin: 0.75em 0 0.25em 0;
+    opacity: 0.75;
+
+`;
+
+const textWrapper = styled.div`
+    display:block;
+
+`;
+
+const About = () => {
+  return (
+    <textWrapper>
+        <Text>{about.text}</Text>
+    </textWrapper>
+  );
+};
 
 export default About;

@@ -1,42 +1,32 @@
-import React, { Component } from 'react';
-import socialMedia from '../config/config';
+import React from "react";
+import { socialMedia } from "../config/config";
 
+const Tab = (props) => {
+  return (
+    <li>
+      <a href={props.link} className={props.icon}>
+        <span className="label">{props.name}</span>
+      </a>
+    </li>
+  );
+};
 
+const TabList = () => {
+  return (
+    socialMedia.map((social) =>(
+      <Tab key={social.key}
+        link={social.link}
+        icon={social.icon}
+        name={social.name}
+      />
+    ))
+  )
+};
 
 const Social = () => {
-        return (
-                <div className="Social">
-                  <ul>
-                    <li>
-                      <a
-                        href="https://twitter.com/LFernandoDleon"
-                        className="icon fa-twitter"
-                      >
-                        <span className="label">Twitter</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="icon fa-linkedin">
-                        <span className="label">LinkedIn</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://github.com/luisf11"
-                        className="icon fa-github"
-                      >
-                        <span className="label">Github</span>
-                      </a>
-                    </li>
-                    {/* <li><a href="about.html" className="icon fa-info"><span className="label">About Me</span></a></li> */}
-                    <li>
-                      <a href="#" className="icon fa-envelope-o">
-                        <span className="label">Email</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-        );
-    }
+  return(
+    <TabList />
+  )
+}
 
-export default Social;   
+export default Social;

@@ -1,4 +1,4 @@
- export const navOptions = [
+ const navOptions = [
   {
     key: 1,
     name: "Home",
@@ -16,7 +16,7 @@
   }
 ];
 
-export const socialMedia = [
+ const socialMedia = [
     {
         key: 1,
         link: "https://twitter.com/LFernandoDleon",
@@ -43,4 +43,15 @@ export const socialMedia = [
     },
 ];
 
-export default navOptions;
+const about = 
+{
+    text: `Hi, my name is Luis F. Peña. I am a highly motivated software developer with more than 3 years of
+    professional experience. I live in Dominican Republic, Santo Domingo. I work as a web developer
+    but i also do freelancing with mobile applications on React Native. I'm a technology enthusiast,Javascript lover
+    and open source contributor, always looking to something new to learn.`
+}
+;
+
+export {navOptions,
+        socialMedia,
+        about} ;

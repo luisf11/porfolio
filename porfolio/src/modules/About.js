@@ -11,16 +11,16 @@ const Text = styled.p`
 
 `;
 
-const textWrapper = styled.div`
+const TextWrapper = styled.div`
     display:block;
 
 `;
 
 const About = () => {
   return (
-    <textWrapper>
+    <TextWrapper>
         <Text>{about.text}</Text>
-    </textWrapper>
+    </TextWrapper>
   );
 };
 

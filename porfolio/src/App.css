@@ -27,14 +27,3 @@
   to { transform: rotate(360deg); }
 }
 
-img.emoji-image {
-  border-radius: 50%;
-  width:200px
-}
-div.about{
-  color: white;
-  background-color: rgba(0, 0, 0, 0.404);
-}
-.tabs a{
-  margin-right: 1em; 
-}

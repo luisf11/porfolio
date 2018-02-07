@@ -1,31 +1,41 @@
-import React, { Component } from 'react';
+import React from "react";
 import emoji from "../images/LF-emoji.png";
-// import Typed from 'typed.js';
+import styled from "styled-components";
 
-// var options = {
-//     strings: ["Full Stack Developer", "Creator", "Enthusiast"],
-//     typeSpeed: 40
-//   }
-//   var typed = new Typed(".type", options);
+const FlexWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
 
-class Intro extends Component {
-    render() {
-        return (
-            <div className="home">
-                <div className="card-content">
-                <img src={emoji} className="emoji-image" />
-                <h1>Luis F. Peña</h1>
-               
-               
-                <p className="type">
-                  Full Stack Developer &nbsp;&bull;&nbsp; Creator
-                  &nbsp;&bull;&nbsp; Enthusiast
+const Image = styled.img`
+    border-radius: 50%;
+    width:200px
+`
+const Element = styled.div``;
 
-                </p>
-              </div> 
-            </div>
-        );
-    }
-}
+const Text = styled.p`
+    font-size: ${props => props.size}em;
+`;
+
+
+const Intro = () => {
+  return (
+    <FlexWrapper>
+      <Element>
+        <Image alt="emoji" src={emoji}  />
+      </Element>
+      <Element>
+        <Text size="3">Luis F. Peña</Text>
+      </Element>
+      <Element>
+        <Text size="1">
+          Full Stack Developer &nbsp;&bull;&nbsp; Creator &nbsp;&bull;&nbsp;
+          Enthusiast
+        </Text>
+      </Element>
+    </FlexWrapper>
+  );
+};
 
 export default Intro;
